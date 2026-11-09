@@ -20,6 +20,19 @@ function App() {
       </div>
         <button className="menu">☰</button>
 
+      <div className="map">
+        <div className="block block1"></div>
+        <div className="block block2"></div>
+
+        <div className="road vertical" style={{ left: "43%" }}></div>
+        <div className="road vertical" style={{ left: "65%" }}></div>
+        <div className="road vertical" style={{ left: "85%" }}></div>
+        <div className="road horizontal" style={{ top: "20%" }}></div>
+        <div className="road horizontal" style={{ top: "48%" }}></div>
+        <div className="road horizontal" style={{ top: "78%" }}></div>
+
+        <button className="menu">☰</button>
+        
         <div className="card">
           <h1>Where to?</h1>
 
