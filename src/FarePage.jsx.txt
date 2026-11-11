@@ -1,0 +1,79 @@
+import { useState } from "react";
+import "./FarePage.css";
+
+function FarePage() {
+  // start price
+  const [fare, setFare] = useState(12);
+
+  function plus() {
+    setFare(fare + 1);
+  }
+
+  function minus() {
+    // do not go below 1 euro
+    if (fare > 1) {
+      setFare(fare - 1);
+    }
+  }
+
+  return (
+    <div className="fare-page">
+      <p className="fare-top-label">2 · Offer your fare</p>
+
+      {/* map */}
+      <div className="fare-map">
+        <div className="fare-block fare-block1"></div>
+        <div className="fare-block fare-block2"></div>
+
+        <div className="fare-road fare-vertical" style={{ left: "25%" }}></div>
+        <div className="fare-road fare-vertical" style={{ left: "52%" }}></div>
+        <div className="fare-road fare-vertical" style={{ left: "77%" }}></div>
+        <div className="fare-road fare-horizontal" style={{ top: "33%" }}></div>
+        <div className="fare-road fare-horizontal" style={{ top: "66%" }}></div>
+
+        <button className="fare-menu">☰</button>
+      </div>
+
+      {/* bottom card */}
+      <div className="fare-sheet">
+        <h1>Offer your fare</h1>
+
+        <div className="fare-box">
+          <span className="fare-dot fare-lime"></span>
+          <div>
+            <p className="fare-label">Pickup</p>
+            <p className="fare-value">Current location</p>
+          </div>
+        </div>
+
+        <div className="fare-box">
+          <span className="fare-dot fare-black"></span>
+          <div>
+            <p className="fare-label">Destination</p>
+            <p className="fare-value">Tripla mall</p>
+          </div>
+        </div>
+
+        <div className="fare-box fare-money-box">
+          <button className="fare-round fare-minus" onClick={minus}>-</button>
+          <div className="fare-middle">
+            <p className="fare-price">€ {fare.toFixed(2)}</p>
+          </div>
+          <button className="fare-round fare-plus" onClick={plus}>+</button>
+        </div>
+
+        <div className="fare-box">
+          <span className="fare-dot fare-grey"></span>
+          <div>
+            <p className="fare-label">Payment</p>
+            <p className="fare-value">Cash</p>
+          </div>
+        </div>
+
+        <button className="fare-find">Find a driver</button>
+      </div>
+    </div>
+  );
+}
+
+export default FarePage;

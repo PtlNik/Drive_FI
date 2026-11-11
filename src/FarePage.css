@@ -1,0 +1,187 @@
+.fare-page {
+  position: relative;
+  max-width: 400px;
+  height: 100vh;
+  min-height: 720px;
+  margin: 0 auto;
+  background: white;
+  overflow: hidden;
+}
+
+.fare-top-label {
+  margin: 0;
+  padding: 24px 27px 0;
+  height: 48px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.fare-map {
+  position: absolute;
+  top: 48px;
+  left: 27px;
+  right: 27px;
+  bottom: 0;
+  background: #e3ebe1;
+  overflow: hidden;
+}
+
+.fare-road {
+  position: absolute;
+  background: white;
+}
+
+.fare-vertical {
+  width: 11px;
+  top: 0;
+  bottom: 0;
+}
+
+.fare-horizontal {
+  height: 11px;
+  left: 0;
+  right: 0;
+}
+
+.fare-block {
+  position: absolute;
+  background: #c5e0c0;
+  border-radius: 14px;
+}
+
+.fare-block1 {
+  left: 60%;
+  top: 25%;
+  width: 33%;
+  height: 25%;
+}
+
+.fare-block2 {
+  left: 5%;
+  top: 60%;
+  width: 20%;
+  height: 20%;
+}
+
+.fare-menu {
+  position: absolute;
+  top: 48px;
+  left: 14px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* bottom card */
+.fare-sheet {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  border-radius: 32px 32px 0 0;
+  padding: 24px 15px 20px;
+}
+
+.fare-sheet h1 {
+  margin: 0 0 16px 0;
+  padding-left: 12px;
+  font-size: 22px;
+}
+
+.fare-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #f2f2f5;
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+}
+
+.fare-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex: none;
+}
+
+.fare-lime {
+  background: #c6f432;
+}
+
+.fare-black {
+  background: #111;
+}
+
+.fare-grey {
+  background: #777;
+}
+
+.fare-label {
+  margin: 0 0 2px;
+  font-size: 11px;
+  color: #6b6b72;
+}
+
+.fare-value {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* price box */
+.fare-money-box {
+  justify-content: space-between;
+  padding: 12px 14px;
+}
+
+.fare-middle {
+  text-align: center;
+}
+
+.fare-price {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.fare-recommended {
+  margin: 2px 0 0;
+  font-size: 11px;
+  color: #6b6b72;
+}
+
+.fare-round {
+  width: 38px;
+  height: 38px;
+  border: none;
+  border-radius: 50%;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fare-minus {
+  background: white;
+}
+
+.fare-plus {
+  background: #c6f432;
+}
+
+.fare-find {
+  width: 100%;
+  height: 40px;
+  margin-top: 4px;
+  border: none;
+  border-radius: 12px;
+  background: #c6f432;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
