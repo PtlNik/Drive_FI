@@ -1,8 +1,13 @@
 import { useState } from "react";
+import FarePage from "./FarePage.jsx";
 
 function App() {
   const [destination, setDestination] = useState("");
+  const [page, setPage] = useState("home");
 
+if (page === "fare") {
+  return <FarePage />;
+}
   return (
     <div className="page">
 
@@ -51,7 +56,7 @@ function App() {
             </div>
           </div>
 
-          <button className="offer">Offer your fare</button>
+          <button className="offer" onClick={() => setPage("fare")}>Offer your fare</button>
         </div>
     </div>
   );
