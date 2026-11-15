@@ -46,7 +46,7 @@ function LiveMap() {
                 <CircleMarker
                     center={position}
                     radius={10}
-                    pathOptions={{ color: "white", weight: 3, fillColor: "#111", fillOpacity: 1 }}
+                    pathOptions={{ color: "white", weight: 3, fillColor:"#1a73e8", fillOpacity: 1 }}
                 />
                 <MoveMap position={position} />
             </MapContainer>
