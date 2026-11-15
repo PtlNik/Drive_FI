@@ -266,3 +266,19 @@ body {
     width: auto;
   }
 }
+.card,
+.menu {
+  z-index: 1000;
+}
+
+.map-message {
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  z-index: 1000;
+}
