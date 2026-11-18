@@ -1,6 +1,6 @@
 import { useState } from "react";
-import FarePage from "./FarePage.jsx";
 import LiveMap from "./LiveMap.jsx";
+import "./FarePage.css";
 
 function App() {
   const [destination, setDestination] = useState("");
