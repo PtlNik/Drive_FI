@@ -1,0 +1,117 @@
+.rp {
+    width: min(100%, 262px);
+    margin: 0 auto;
+    padding: 24px 0 28px;
+    color: #121212;
+    font-family: Inter, Arial, sans-serif;
+}
+
+.rp-header {
+    text-align: center;
+}
+
+.rp-avatar {
+    display: grid;
+    place-items: center;
+    width: 68px;
+    height: 68px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    background: #c4f42b;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.rp-header h2 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.35;
+}
+
+.rp-header p {
+    margin: 8px 0 10px;
+    color: #727278;
+    font-size: 12px;
+}
+
+.rp-stack {
+    display: grid;
+    gap: 10px;
+}
+
+.rp-detail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 50px;
+    padding: 9px 12px;
+    border-radius: 11px;
+    background: #f1f1f4;
+}
+
+.rp-dot {
+    width: 8px;
+    height: 8px;
+    flex: 0 0 8px;
+    border-radius: 50%;
+}
+
+.rp-dot-phone { background: #c4f42b; }
+.rp-dot-email { background: #111; }
+.rp-dot-home  { background: #77777d; }
+
+.rp-label,
+.rp-value {
+    display: block;
+}
+
+.rp-label {
+    margin-bottom: 2px;
+    color: #696970;
+    font-size: 10px;
+}
+
+.rp-value {
+    overflow-wrap: anywhere;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.rp-button {
+    min-height: 40px;
+    border: 0;
+    border-radius: 11px;
+    background: #f1f1f4;
+    color: #111;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.rp-dark {
+    background: #121212;
+    color: white;
+}
+
+.rp-edit-field {
+    display: grid;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.rp-edit-field input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #c9c9ce;
+    border-radius: 10px;
+    font: inherit;
+    font-size: 14px;
+}
+
+.rp-message {
+    margin: 12px 0 0;
+    text-align: center;
+    font-size: 13px;
+}
