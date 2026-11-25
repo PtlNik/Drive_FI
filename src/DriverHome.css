@@ -199,3 +199,69 @@
     margin: 0 0 16px;
     color: #5d5d65;
 }
+
+.dr-page {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: #f3f6ed;
+  color: #121212;
+}
+
+.dr-page .dh-header {
+  background: white;
+}
+
+.dr-card {
+  width: min(420px, calc(100% - 32px));
+  margin: clamp(24px, 8vh, 80px) auto;
+  padding: 24px;
+  border-radius: 22px;
+  background: white;
+  box-shadow: 0 14px 40px rgb(0 0 0 / 8%);
+}
+
+.dr-label,
+.dr-details dt {
+  margin: 0;
+  color: #626269;
+  font-size: 13px;
+}
+
+.dr-card h1 {
+  margin: 6px 0 20px;
+  font-size: 24px;
+}
+
+.dr-details {
+  display: grid;
+  gap: 8px;
+  margin: 0 0 18px;
+}
+
+.dr-details > div {
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #f2f2f5;
+}
+
+.dr-details dd {
+  margin: 4px 0 0;
+  font-weight: 600;
+}
+
+.dr-details .dr-fare {
+  font-size: 24px;
+}
+
+.dr-secondary {
+  width: 100%;
+  min-height: 44px;
+  margin-top: 8px;
+  border: 0;
+  border-radius: 14px;
+  background: #f1f1f4;
+  color: #171717;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
