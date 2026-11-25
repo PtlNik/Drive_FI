@@ -282,3 +282,100 @@ body {
   font-size: 13px;
   z-index: 1000;
 }
+.df-login {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: #f3f6ed;
+}
+
+.df-login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 32px;
+  border-radius: 24px;
+  background: white;
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.09);
+}
+
+.df-login-brand {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.df-login-brand span {
+  color: #577810;
+}
+
+.df-login-card h1 {
+  margin: 24px 0 20px;
+}
+
+.df-login-roles {
+  display: flex;
+  gap: 12px;
+  margin: 0 0 18px;
+  padding: 0;
+  border: 0;
+}
+
+.df-login-roles legend {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.df-login-roles label {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid #c9cec2;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.df-login-roles input {
+  accent-color: #527400;
+}
+
+.df-login-field {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.df-login-field input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #c9cec2;
+  border-radius: 12px;
+  font: inherit;
+  font-weight: 400;
+}
+
+.df-login-submit {
+  width: 100%;
+  padding: 14px;
+  border: 0;
+  border-radius: 14px;
+  background: #c6f432;
+  color: #111;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.df-login-error {
+  color: #a12222;
+}
+
+.df-login-hint {
+  margin: 16px 0 0;
+  color: #575b53;
+  font-size: 13px;
+  line-height: 1.6;
+}
