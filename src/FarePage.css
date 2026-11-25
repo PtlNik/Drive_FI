@@ -185,3 +185,166 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+/* Driver list and trip details */
+.ride-small {
+  margin: 0 0 6px;
+  font-size: 12px;
+  color: #6b6b72;
+}
+
+.ride-driver {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 14px;
+  background: #f2f2f5;
+}
+
+.ride-avatar {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #c6f432;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ride-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.ride-name {
+  margin: 0 0 3px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.ride-time {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.ride-right {
+  flex: none;
+  text-align: right;
+}
+
+.ride-price {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.ride-accept {
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 10px;
+  background: #c6f432;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ride-plate {
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: white;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.ride-cancel,
+.ride-dark {
+  width: 100%;
+  min-height: 40px;
+  border: 0;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ride-cancel {
+  background: #f2f2f5;
+  color: #b42318;
+}
+
+.ride-dark {
+  background: #111;
+  color: white;
+}
+
+.ride-buttons {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.ride-buttons button {
+  flex: 1;
+  min-height: 38px;
+  border: 0;
+  border-radius: 10px;
+  background: #f2f2f5;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Ride progress */
+.ride-bar {
+  height: 8px;
+  margin: 8px 0 14px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #eee;
+}
+
+.ride-bar-fill {
+  height: 100%;
+  background: #c6f432;
+  transition: width 1s linear;
+}
+
+/* Rating screen */
+.ride-center {
+  text-align: center;
+}
+
+.ride-center .fare-box {
+  text-align: left;
+}
+
+.ride-big-star {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 8px;
+  border-radius: 50%;
+  background: #c6f432;
+  font-size: 26px;
+}
+
+.ride-stars {
+  margin: 8px 0 14px;
+}
+
+.ride-star {
+  color: #b8b8bf;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.ride-star.on {
+  color: #83a509;
+}
